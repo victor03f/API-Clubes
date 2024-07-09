@@ -1,0 +1,46 @@
+
+.justify-start {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .itemImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.players{
+    width: 70%;
+    
+}
